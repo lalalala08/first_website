@@ -1,0 +1,118 @@
+<!DOCTYPE html> <!--This tells the compiler about the version of the HTML.  It was different for HTML 4 -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"> <!--meta data is the associated data. UTF-8 is the encoding system (read about mojibake)-->
+    <!--Unicode also includes emojis-->
+    <!--The web browser looks for the meta tags for deciding how to display the web page, its index and description-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Singh</title>
+</head>
+
+<body>
+    <table cellspacing="20">   <!--We are creating this table because we want the image and the description side to each other-->
+        <tr>
+            <td><img src="https://academy.avast.com/hubfs/New_Avast_Academy/Hackers/Hacker-Thumb-a1.png" alt="Rohan's Photo"></td>
+            <td><h1>Rohan Singh</h1>
+                <p>
+                    <em>Student at <a href="http://www.mnnit.ac.in/">MNNIT Allahabad</a></em> <!--em tag also does the same visually but the em tag tells the browser to 
+                    emphasize the words written in that tag. similarly there is strong and b tag-->
+                </p>
+                <p>
+                    My instructor of this course told me to write this bio so i am writing this.
+                </p></td>
+        </tr>
+    </table>
+    
+    <!--the alt text of the image tag is used by google in idexing and tells what this website is about-->
+    <!--Instead of putting link from the web, we can save it in our pc. If the image is in same folder, then just the name of the file else you have to give the path-->
+    
+    <hr>
+    <h3>
+        I am currently studying Computer Science and Engineering at MNNIT.
+    </h3>
+    <ul>
+        <li>10th grade</li>
+        <li>12th grade</li>
+        <li>B.Tech</li>
+    </ul>
+    <h3><a href="hobbies.html">Hobbies</a></h3>
+    <!--The source of the image can be from the web or locally from the same directory-->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Year of Passing</th>
+                <th>Education level</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>2019</td>
+                <td>10th</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>12th</td>
+            </tr>
+            <tr>
+                <td>2025</td>
+                <td>B.Tech.</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot> <!--we are dividing the table into 3 parts, head,body and foot because doing that we can isolate them and apply operations seperately.-->
+        <!-- we can use HTML to style but we try not to and rather use CSS -->
+        
+    </table>
+
+    <hr>
+    <h3><a href="contact_details.html">Contact Details</a></h3>
+    <hr>
+    <h3>Skills</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>c/c++</td>
+                <td>💯💯💯</td>
+            </tr>
+            <tr>
+                <td>java</td>
+                <td>💯💯</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border = "1">
+        <tr>
+            <td>
+                <table>
+                    <tr>
+                        <td>maths</td>
+                        <td>99</td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table>
+                    <tr>
+                        <td>phy</td>
+                        <td>97</td>
+                    </tr>
+                </table>
+            </td>
+            
+        </tr>
+
+
+    </table>
+</body>
+
+</html>
+
+<!-- Without hosting the website, it will be accessible only to us and not to others. Therefore we need to host it for it to be on the internet -->

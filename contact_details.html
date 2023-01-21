@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Phone Number</h2>
+    <p>09090900099</p>
+    <h2>E-mail ID</h2>
+    <p>lalalla@gmail.com</p>
+
+    <form action="mailto:rohan@gmail.com" method="post" enctype="text/plain"> <!-- enctype is similar to meta tag charset="UTF-8"
+        and method ="post" means that we are requesting the servers to send the request-->
+        <label for="">Your Name</label>
+        <input type="text" name="yourName">   <!--The name attribute is required to identify the data -->
+        <br>
+        <label for="">Your Favourite Colour</label>
+        <input type="color" name="yourColor">      <!--Notice input is a self closing tag-->
+        <br>                    
+        <label for="">Do you accept our terms and conditions</label>
+        <input type="checkbox" name="yourCondition">
+        <br>
+        <label for="">What is your password</label>
+        <input type="password" name="yourPasswd">
+        <br>
+        <label for="">Your Email</label>
+        <input type="email" name="YourEmail">
+        <br>
+        <label for="">Your message for us :</label><br>
+        <textarea name="yourMsg" id="" cols="30" rows="10">Rohan is nice</textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
